@@ -26,7 +26,7 @@ body {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: auto;
   border-left: 1px solid rgba(255, 255, 255, 0.05);
   border-right: 1px solid rgba(255, 255, 255, 0.05);
   position: relative;
@@ -43,7 +43,7 @@ body {
    ========================================================================== */
 .header {
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .header__container {
@@ -139,7 +139,7 @@ body {
   font-weight: 800;
   font-size: clamp(24px, 7vw, 28px);
   line-height: 1.25;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: -0.5px;
@@ -181,7 +181,7 @@ body {
   position: relative;
   max-width: 280px;
   width: 100%;
-  margin: 0 auto 24px;
+  margin: 0 auto 16px;
   border-radius: 20px;
 }
 
